@@ -1,0 +1,45 @@
+window#waybar {
+	background-color: transparent;
+}
+
+modules {
+	margin: 3px
+}
+
+.modules-left {
+    color: gray;
+	border-radius: 6px;
+	margin: 5px;
+	background-color: #0f0f0f;
+}
+
+.modules-center {
+	border-radius: 6px;
+	margin: 5px;
+	padding: 2px;
+	background-color: #0f0f0f;
+}
+
+#pulseaudio {
+	margin-left: 5px;
+}
+
+#cpu {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#battery {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#memory {
+	margin-right: 5px;	
+}
+
+.modules-right { 
+	border-radius: 6px;
+	margin: 5px;
+    background-color: #0f0f0f;
+}
