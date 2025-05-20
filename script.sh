@@ -23,8 +23,8 @@ cp -r ./waybar ~/.config/waybar
 echo "Waybar was configured"
 
 # zsh/bash
-grep -qxF "source $HOME/git/pioucraft/config/zsh/.zshrc" $HOME/.bashrc || echo "source $HOME/git/pioucraft/config/zsh/.zshrc" >> $HOME/.bashrc
-grep -qxF "source $HOME/git/pioucraft/config/zsh/.zsh_env" $HOME/.bashrc || echo "source $HOME/git/pioucraft/config/zsh/.zsh_env" >> $HOME/.bashrc
+grep -qxF "source $HOME/git/pioucraft/config/bash/.bashrc" $HOME/.bashrc || echo "source $HOME/git/pioucraft/config/bash/.bashrc" >> $HOME/.bashrc
+grep -qxF "source $HOME/git/pioucraft/config/bash/.bash_env" $HOME/.bashrc || echo "source $HOME/git/pioucraft/config/bash/.bash_env" >> $HOME/.bashrc
 echo "Zsh/Bash was configured"
 
 # reload 
