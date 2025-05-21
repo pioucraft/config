@@ -24,3 +24,8 @@ alias gai="$HOME/git/pioucraft/gougoule-ai-frontend/main"
 figlet -f nancyj-fancy "Gougoule"
 
 export FILES="$HOME/Files"
+
+alias l='exa --icons --group-directories-first --color=always --long --git'
+alias f="fzf --preview 'bat --style=numbers --color=always {}'     --preview-window=right:60%:wrap:hidden     --bind '?:toggle-preview'"
+alias n='nvim "$(date +"%d.%m.%Y, %H:%M:%S").txt"'
+
