@@ -35,6 +35,7 @@ vim.lsp.enable('luals')       -- Enable Lua language server
 vim.lsp.enable("typescript")  -- Enable TypeScript language server
 vim.lsp.enable("gopls")       -- Enable Go language server
 vim.lsp.enable("html")        -- Enable HTML language server
+vim.lsp.enable("python")        -- Enable Python language server
 
 -- Set colorscheme
 vim.g.sonokai_style = 'andromeda' -- Set Sonokai theme style to 'andromeda'
