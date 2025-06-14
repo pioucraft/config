@@ -1,2 +1,3 @@
 config.env
 .bash_env
+.lazy-lock.json
