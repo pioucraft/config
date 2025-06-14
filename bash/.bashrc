@@ -21,7 +21,14 @@ export GAI_MODEL="bfee6829-25cc-4112-9a46-a429ab1fb48d"
 export GAI_URL="https://gougoule.ch/api/v1/"
 alias gai="$HOME/git/pioucraft/gougoule-ai-frontend/main"
 
+
 figlet -f nancyj-fancy "Gougoule"
+function help() {
+    echo -e "\e[1;31mNever quit !\e[0m"
+    echo -e "\e[1;33mOne day,\e[0m"
+    echo -e "\e[1;36mThe meaning will come\e[0m"
+    echo -e "\e[1;32mYou're just building a path for it\e[0m"
+}
 
 export FILES="$HOME/Files"
 export GITCONFIGPATH="$HOME/git/pioucraft/config"
