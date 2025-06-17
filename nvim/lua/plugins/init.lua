@@ -2,6 +2,19 @@ return {
   "github/copilot.vim",
   "m4xshen/autoclose.nvim",
   "https://github.com/windwp/nvim-ts-autotag",
+    {
+        "nvimtools/none-ls.nvim",
+        config = function() 
+            local null_ls = require("null-ls")
+            null_ls.setup({
+                sources = {
+                    null_ls.builtins.formatting.prettier,
+                    null_ls.builtins.diagnostics.eslint,
+                },
+            })
+        end,
+
+    },
   {
     "neovim/nvim-lspconfig",
     dependencies = {
