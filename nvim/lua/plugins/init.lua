@@ -1,8 +1,7 @@
 return {
   "github/copilot.vim",
   "m4xshen/autoclose.nvim",
-  "alvan/vim-closetag",
-
+  "https://github.com/windwp/nvim-ts-autotag",
   {
     "neovim/nvim-lspconfig",
     dependencies = {
