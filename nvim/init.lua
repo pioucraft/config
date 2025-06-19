@@ -30,3 +30,4 @@ vim.api.nvim_set_keymap('v', 'd', '"_d', { noremap = true, silent = true }) -- S
 require("config.autoclose")
 require("config.mason")
 require("config.autotag")
+require("config.harpoon")
