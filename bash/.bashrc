@@ -1,6 +1,6 @@
 alias serverconnect="ssh debian@gougoule.ch"
 alias vim="nvim"
-alias tmuxg="tmux attach -t gougoule"
+alias tmuxg="tmux new-session -t gougoule"
 alias localip="ipconfig getifaddr en0"
 
 function gcommit() {
