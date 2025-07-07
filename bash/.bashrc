@@ -1,4 +1,6 @@
 alias serverconnect="ssh debian@gougoule.ch"
+alias servermount="sshfs debian@gougoule.ch:/ ./server"
+
 alias vim="nvim"
 alias tmuxg="tmux new-session -t gougoule"
 alias localip="ipconfig getifaddr en0"
