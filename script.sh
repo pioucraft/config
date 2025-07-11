@@ -17,6 +17,7 @@ echo "Please install packer from GitHub, and configure Copilot"
 cp -r ./hypr ~/.config/hypr
 sed -i "1s/.*/$(head -n 1 config.env)/" ~/.config/hypr/hyprland.conf
 sed -i "6s~.*~$(sed -n '2p' config.env)~" ~/.config/hypr/hyprland.conf
+sed -i "7s~.*~$(sed -n '3p' config.env)~" ~/.config/hypr/hyprland.conf
 echo "Hyprland was configured"
 
 # waybar
