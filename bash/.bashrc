@@ -39,4 +39,3 @@ alias l='exa --icons --group-directories-first --color=always --long --git'
 alias f="fzf --preview 'bat --style=numbers --color=always {}'     --preview-window=right:60%:wrap:hidden     --bind '?:toggle-preview'"
 alias n='nvim "$(date +"%d.%m.%Y, %H:%M:%S").txt"'
 
-alias checkgitstatus="$GITCONFIGPATH/bash/scripts/checkgitstatus.sh $HOME/ $HOME/Files/Files $HOME/.cache"
